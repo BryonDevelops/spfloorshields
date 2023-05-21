@@ -2,10 +2,10 @@
   "name": "spfloorshields",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./build/js/Site.js",
   "scripts": {
-    "build": "tailwindcss -i ./src/wwwroot/css/input.css -o ./build/css/main.css",
-    "watch": "tailwindcss -i ./src/wwwroot/css/input.css -o ./build/css/main.css --watch"
+    "build": "npx tailwindcss -i ./src/wwwroot/css/input.css -o ./build/css/main.css",
+    "watch": "npx tailwindcss -i ./src/wwwroot/css/input.css -o ./build/css/main.css --watch"
   },
   "keywords": [],
   "author": "",

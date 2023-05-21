@@ -3,18 +3,17 @@
 @tailwind utilities;
 
 body {
-  background-image: url('../img/bg-tablet-pattern.svg');
   background-repeat: no-repeat;
   background-size: 800px;
   background-position: 90% -25%;
 }
 
 .custom-img{
-    background-image: url("/src/wwwroot/content/SP_Hero_IMG.jpg");
+    background-image: url("/build/content/SP_Hero_IMG.jpg");
 }
 
 .custom-img2{
-  background-image: url("/src/wwwroot/content/WhoWeAreBackground.jpeg");
+  background-image: url("/build/content/WhoWeAreBackground.jpeg");
 }
 #menu{
   z-index: 99;
